@@ -20,6 +20,7 @@ header{
    z-index: 2;
    background-color: beige;
    width: 100%;
+   transition: 0.7s;
 }
 
 header .container{
@@ -59,4 +60,15 @@ header .infoheader a{
     text-decoration: none;
     color:beige;
     font-size: 15px;
+}
+
+
+header.abajo{
+    background:#1b1b1b;
+    padding: 15px 20px;
+}
+
+header.abajo .container .logo,
+header.abajo .container a{
+    color:#1b1b1b;
 }
